@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-weight: bold;
+}
+body {
+  background: url(./Pics/questionBcg.jpeg);
+
+  background-size: cover;
+}
+h2 {
+  color: rgb(255, 119, 0);
+  margin: 2rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+img {
+  border-radius: 50%;
+
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  top: -60px;
+}
+.card {
+  margin-top: 5rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: 1px solid white;
+}
+#starkeeper {
+  margin-top: 2rem;
+  color: rgb(255, 119, 0);
+}
+#starkeeper i {
+  color: rgb(255, 119, 0);
+}
+.card-title {
+  margin-top: 2rem;
+  text-align: center;
+}
+#quoteicon {
+  font-size: 3rem;
+  color: rgb(255, 119, 0);
+}
+.fa-angles-right,
+.fa-angles-left {
+  font-size: 4rem;
+  color: rgb(255, 119, 0);
+}
+
+.right {
+  right: -30px;
+  color: rgb(166, 255, 0);
+  border: none;
+  background: transparent;
+  position: absolute;
+}
+.left {
+  left: -30px;
+  color: rgb(166, 255, 0);
+  border: none;
+  background: transparent;
+  position: absolute;
+}
